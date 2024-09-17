@@ -1,0 +1,42 @@
+/* styles.css */
+.contenedor-pestanas {
+    width: 60%;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+
+.pestanas {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid #ccc;
+}
+
+.pestana {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-size: 16px;
+}
+
+.pestana:hover {
+    background-color: #ddd;
+}
+
+.pestana.activa {
+    border-bottom: 2px solid #000;
+    background-color: #fff;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+.tab-content.activo {
+    display: block;
+}
